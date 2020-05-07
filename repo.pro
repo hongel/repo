@@ -31,6 +31,9 @@ SOURCES += \
 HEADERS += \
         widget.h
 
+TRANSLATIONS +=resources/tr_zh.ts \
+               resources/tr_en.ts
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
