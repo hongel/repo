@@ -6,7 +6,7 @@
     <message>
         <location filename="../widget.cpp" line="8"/>
         <source>Deepin</source>
-        <translation type="unfinished"></translation>
+        <translation>深度</translation>
     </message>
 </context>
 </TS>
