@@ -1,12 +1,17 @@
 #include "widget.h"
 #include <QLabel>
+#include <QVBoxLayout>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
     setGeometry(0,0,600,400);
+    QVBoxLayout *layout=new QVBoxLayout(this);
+    setLayout(layout);
     QLabel *label=new QLabel(tr("Deepin"),this);
-    label->move(300,200);
+    QLabel *label1=new QLabel(tr("UnionTech is a company that develop Computer OS in China."),this);
+    layout->addWidget(label);
+    layout->addWidget(label1);
 }
 
 Widget::~Widget()
