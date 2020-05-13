@@ -10,6 +10,7 @@ Widget::Widget(QWidget *parent)
     setLayout(layout);
     QLabel *label=new QLabel(tr("Deepin"),this);
     QLabel *label1=new QLabel(tr("UnionTech is a company that develop Computer OS in China."),this);
+    QLabel *label2=new QLabel(tr("UnionTech is the mother company of Deepin."),this);
     layout->addWidget(label);
     layout->addWidget(label1);
 }
