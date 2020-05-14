@@ -4,7 +4,7 @@
     <message>
         <location filename="../widget.cpp" line="11"/>
         <source>Deepin</source>
-        <translation type="unfinished"/>
+        <translation>深度</translation>
     </message>
     <message>
         <location filename="../widget.cpp" line="12"/>

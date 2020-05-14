@@ -18,5 +18,10 @@
         <source>UnionTech is the mother company of Deepin.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../widget.cpp" line="14"/>
+        <source>Hello.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
