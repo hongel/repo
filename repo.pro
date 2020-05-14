@@ -31,8 +31,7 @@ SOURCES += \
 HEADERS += \
         widget.h
 
-TRANSLATIONS +=resources/tr_zh.ts \
-               resources/tr_en.ts
+TRANSLATIONS +=resources/repo.ts
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
