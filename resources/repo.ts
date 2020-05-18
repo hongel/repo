@@ -23,5 +23,10 @@
         <source>Hello.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../widget.cpp" line="15"/>
+        <source>world.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
