@@ -26,5 +26,10 @@
         <source>world.</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location filename="../widget.cpp" line="16"/>
+        <source>window.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 </TS>
