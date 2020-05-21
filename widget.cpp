@@ -5,14 +5,15 @@
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
-    setGeometry(0,0,600,400);
-    QVBoxLayout *layout=new QVBoxLayout(this);
+    setGeometry(0, 0, 600, 400);
+    QVBoxLayout *layout = new QVBoxLayout(this);
     setLayout(layout);
-    QLabel *label=new QLabel(tr("Deepin"),this);
-    QLabel *label1=new QLabel(tr("UnionTech is a company that develop Computer OS in China."),this);
-    QLabel *label2=new QLabel(tr("UnionTech is the mother company of Deepin."),this);
-    QLabel *label3=new QLabel(tr("Hello."),this);
-    QLabel *label3=new QLabel(tr("world."),this);
+    QLabel *label = new QLabel(tr("Deepin"), this);
+    QLabel *label1 = new QLabel(tr("UnionTech is a company that develop Computer OS in China."), this);
+    QLabel *label2 = new QLabel(tr("UnionTech is the mother company of Deepin."), this);
+    QLabel *label3 = new QLabel(tr("Hello."), this);
+    QLabel *label4 = new QLabel(tr("world."), this);
+    QLabel *label5 = new QLabel(tr("window."), this);
     layout->addWidget(label);
     layout->addWidget(label1);
 }

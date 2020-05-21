@@ -7,4 +7,23 @@ minimum_perc = 0
 source_file = resources/repo.ts
 source_lang = en
 type = QT
+desktop_file_filter = resources/desktop_<lang>.ts
+desktop_source_file = resources/repo.desktop
+desktop_output = repo.desktop
+policy_file_filter = resources/policy_<lang>.ts
+policy_source_file = resources/org.archlinux.pkexec.gparted.policy
+policy_output = repo.policy
 
+[tx-test.desktop-ts]
+file_filter = resources/desktop_<lang>.ts
+minimum_perc = 0
+source_file = resources/desktop.ts
+source_lang = en
+type = QT
+
+[tx-test.policy-ts]
+file_filter = resources/policy_<lang>.ts
+minimum_perc = 0
+source_file = resources/policy.ts
+source_lang = en
+type = QT
